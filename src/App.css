@@ -1,0 +1,99 @@
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  background-image: url('./hotel1.jpg');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.btn{
+  /* display: flex;
+  justify-content: center; */
+  align-self: center;
+  /* top: 50%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  /* -ms-transform: translate(-50%, -50%); */
+  background-color: #7fb1dd;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  /* margin-bottom: 2.5em; */
+  margin-top: 5em;
+}
+
+.btn:hover {
+  background-color: #76838c;
+  color: white;
+}
+
+.Header{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: baseline;
+    padding: 1em;
+    margin-bottom: 2em;
+    background: linear-gradient(to right,#76838c,#949292,#b3b2ae,#67abd9,#7fb1dd,#65deef);
+    color: #fff;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.titulo{
+  padding-left: 3em;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.face{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.face:hover{
+  color: #76838c;
+  cursor: pointer;
+}
+
+.insta{
+  margin-left: 15%;
+}
+
+.insta:hover{
+  color: #76838c;
+  cursor: pointer;
+}
+
+.whats:hover{
+  color: #76838c;
+  cursor: pointer;
+}
+
+.menu:hover{
+  color:#76838c;
+  cursor: pointer;
+}
+
+.contacto{
+  display: flex;
+  align-content: flex-end;
+  align-self: flex-end;
+  margin-left: 75%;
+}
